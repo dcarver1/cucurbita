@@ -1,0 +1,5 @@
+updated 
+9/10/2018
+
+thinningOccuranceDate
+- r code for subseting data to produce the google mymaps of locations of CWR  

@@ -1,0 +1,7 @@
+updated: 9/10/2018
+
+Cucurbita_total_2018_8_31 - Cucurbita:
+csv of the species occurance data from original data 
+
+singleSpecies: 
+subsets of ocrrance data trim to presence locations and species species 17 total CRW 
