@@ -1,8 +1,7 @@
 library(dplyr)
 
-
-setwd("H:\\SOS_Project\\ars\\cucurbita")
-Cucurbita <- read.csv("orginalData\\Cucurbita_total_2018_8_31 - Cucurbita.csv")
+setwd("H:\\cucurbita")
+Cucurbita <- read.csv("analysisData\\Cucurbita_total_2018_8_31 - Cucurbita.csv")
 
 #List of existing cwr species 
 CWR <- c("Cucurbita_argyrosperma_subsp._sororia",
@@ -62,6 +61,7 @@ write.csv(slice(foetidissima, 2001:2269), file = paste("analysisData\\Cucurbita_
 
 
 
+
 # cnrt+shirt+c to commit out large sections of code.
 # # this worked for the three sets but we need a specific csv for each species 
 # cucurbitaSet1 <- filter(cucurbita, Taxon_final %in% c("Cucurbita_foetidissima","Cucurbita_lundelliana"))
@@ -75,3 +75,5 @@ write.csv(slice(foetidissima, 2001:2269), file = paste("analysisData\\Cucurbita_
 # write.csv(cucurbitaSet1, file = "cucurbitaWildSet1.csv")
 # write.csv(cucurbitaSet2, file = "cucurbitaWildSet2.csv")
 # write.csv(cucurbitaSet3, file = "cucurbitaWildSet3.csv")
+
+
